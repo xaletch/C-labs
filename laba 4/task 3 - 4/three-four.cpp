@@ -4,54 +4,54 @@ using namespace std;
 
 int main()
 {
-	setlocale(LC_ALL, "Russian");
+		setlocale(LC_ALL, "Russian");
 	
     // int a = 26, b = 6;
     int a = 22, b = 4;
     int c, d;
     
     
-	// ¿   
+	// –ê   
     c = (a % b) + b;
-    cout << "¿ - " << c << endl << endl;
+    cout << "–ê - " << c << endl << endl;
     
-	// ¡   
+	// –ë   
     c = (a / b) + a;
-    cout << "¡ - " << c << endl << endl;
+    cout << "–ë - " << c << endl << endl;
     
-	// ¬   
+	// –í   
     d = a / b;
-    cout << "¬ - " << d << endl;
+    cout << "–í - " << d << endl;
       
     c = a / d;
-    cout << "ŒÚ‚ÂÚ: " << c << endl << endl;
+    cout << "–û—Ç–≤–µ—Ç: " << c << endl << endl;
     
-	// √
+	// –ì
     d = (a / b) + b;
-    cout << "√ - " << c << endl;
+    cout << "–ì - " << c << endl;
     
     c = (a % d) + 4;
-    cout << "ŒÚ‚ÂÚ: " << c << endl << endl;
+    cout << "–û—Ç–≤–µ—Ç: " << c << endl << endl;
 
-	// ƒ
+	// –î
     d = (a % b) + 4;
-    cout << "ƒ - " << d << endl;
+    cout << "–î - " << d << endl;
     
     c = (a % d) + 1;
-    cout << "ŒÚ‚ÂÚ: " << c << endl << endl;
+    cout << "–û—Ç–≤–µ—Ç: " << c << endl << endl;
     
-	// ≈   
+	// –ï   
     d = a / b;
-    cout << "≈ - " << d << endl;
+    cout << "–ï - " << d << endl;
     
     c = (a % (d + 1));
-    cout << "ŒÚ‚ÂÚ: " << c << endl << endl;
+    cout << "–û—Ç–≤–µ—Ç: " << c << endl << endl;
     
-	// ∆
+	// –ñ
     d  = a % b;
-    cout << "∆ - " << d << endl;
+    cout << "–ñ - " << d << endl;
     
     c = a / (d + 1);
-    cout << "ŒÚ‚ÂÚ: " << c << endl << endl;
+    cout << "–û—Ç–≤–µ—Ç: " << c << endl << endl;
 }
 
